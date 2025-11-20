@@ -1,0 +1,9 @@
+1 JavaScript (JS) Ecma JavaScript
+
+Linguagem interpretada pelo navegador ou executada pela plataforma node
+
+Particularidades da linguagem
+
+- Conceito de sentença e não linha
+- Ponto e vírgula (;) é opcional
+- Podemos usar aspas duplas ("") ou aspas simples (''), só não podemos misturar > Usar aspas duplas para textos e simples para importações <

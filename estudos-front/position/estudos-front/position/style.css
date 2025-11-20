@@ -1,0 +1,34 @@
+body {
+    font-family: sans-serif;
+}
+
+#static {
+    position: static;
+    padding: 50px;
+    background-color: #00ffff;
+}
+
+#relative1 {
+    position: relative;
+    padding: 50px;
+    background-color: #ff0000;
+    color: #fff;
+    /*top: 30px;*/
+}
+
+#relative2 {
+    position: relative;
+    width: 500px;
+    padding: 30px;
+    background-color: #00ff00;
+    top: -30px;
+    left: 30px;
+}
+
+#relative3 {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    background-color: #ffff00;
+}

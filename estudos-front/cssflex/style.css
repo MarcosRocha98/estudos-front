@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0d0d0d;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* ✅ Usa min-height em vez de height */
+  padding: 30px 10px; /* ✅ Cria respiro no topo e na base */
+}
+
+.container {
+  text-align: center;
+  background: #111;
+  padding: 40px 30px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.1);
+}
+
+.profile-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #c89d0b;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: 'Rock Salt', cursive;
+  font-size: 1.8em;
+  color: #c89d0b;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 0.95em;
+  color: #ccc;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.links a {
+  display: block;
+  background: #c89d0b;
+  color: #000;
+  text-decoration: none;
+  margin: 12px 0;
+  padding: 14px;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: 0.3s;
+  box-shadow: 0 0 15px rgba(200, 157, 11, 0.3);
+}
+
+.links a:hover {
+  background: #fff;
+  color: #c89d0b;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+footer {
+  margin-top: 25px;
+  font-style: italic;
+  font-size: 0.85em;
+  color: #aaa;
+  line-height: 1.4;
+}
+
+/* ✅ Ajuste para telas pequenas */
+@media (max-height: 700px) {
+  body {
+    align-items: flex-start;
+  }
+  .container {
+    margin-top: 40px;
+    padding: 30px 20px;
+  }
+}

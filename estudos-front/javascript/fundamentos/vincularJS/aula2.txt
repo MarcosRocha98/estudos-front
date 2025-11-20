@@ -1,0 +1,50 @@
+Vincular JS
+
+O JS pode ser executado de 3 formas:
+
+1 - Direto no browser
+2 - No próprio código HTML pelo <script></script>
+3 - Vinculado a um documento: <script src""></script>
+
+html --- js < sempre antes do fechamento da tag </body>
+
+OBS: script.js < parra front-end / main.js < para desktop / app.js < para app smartphone / index.js < para back-end
+
+___________________________________________________________________________________________________________________
+
+Funções
+
+São blocos de código que executam uma tarefa.
+No JS usamos a palavra function para criar uma função.
+
+// Função simples
+function hello() {`
+
+}
+
+Para executar uma função basta "chamar" o seu nome seguido de parênteses: hello()
+
+// saber o tipo da variavel
+typeof(variavel)
+
+// criar variavel e atribuir valor
+let nome = "Marcos" (retorna como string)
+
+// atribuir outro valor-número para a variavel
+nome = 3 (retorna como number)
+nome = true (retorna como boolean)
+
+
+
+// Variáveis
+Na linguagem do JS as variáveis são dinamicamente tipadas, ou seja, o tipo é determinado de acordo com o valor atribuído.
+
+Existem 3 tipos de variáveis no JS: 
+° string (caracteres) usando aspas simples ou aspas duplas
+° number (números int e não int)
+° boolean (verdadeiro ou falso)
+
+Para criar uma variável, usamos: let
+Para criar uma constante usamos: const
+
+Obs: Uso do var está obsoleto > NÃO USAR (É INSEGURO) FOI SUBSTITUIDO PELO LET <
